@@ -1,0 +1,22 @@
+{
+  "name": "csians",
+  "version": "1.0.0",
+  "description": "it a web utility app for students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsashwat/Csians.git"
+  },
+  "author": "Shashwat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsashwat/Csians/issues"
+  },
+  "homepage": "https://github.com/imsashwat/Csians#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

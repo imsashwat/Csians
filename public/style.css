@@ -1,4 +1,34 @@
+/* giving colour to icons of footer */
 .fas {
     color: white;
 }
+/* giving top margin to the notes container */
+.con-notes {
+    margin-top: 4%;
+}
 
+/* giving top margin to the notes2,3,4,5,6 classes */
+@media only screen and (max-width: 600px) {
+    .notes2, .notes3 {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+  }
+
+
+.notes4, .notes5, .notes6 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+/* to create zoom effect overflow is hidden so that the pic doesnt move outside card*/
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}

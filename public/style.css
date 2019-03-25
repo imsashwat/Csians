@@ -1,3 +1,10 @@
+/* giving margin top to timetable in index.html */
+.con-tt, .con-syll {
+    margin-top: 4%;
+}
+
+
+
 /* giving colour to icons of footer */
 .fas {
     color: white;
@@ -12,6 +19,7 @@
     .notes2, .notes3 {
         margin-top: 4%;
         margin-bottom: 4%;
+       
     }
   }
 

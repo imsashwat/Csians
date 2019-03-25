@@ -7,8 +7,6 @@ srv.use('/public', express.static(__dirname + "/public"))
 srv.use('/public', express.static(__dirname + "/routes"))
 
 
-
-
 srv.use('/index', index)
 
 srv.listen(4567)

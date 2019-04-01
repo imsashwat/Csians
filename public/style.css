@@ -15,14 +15,19 @@
 }
 
 /* giving top margin to the notes2,3,4,5,6 classes */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .notes2, .notes3 {
         margin-top: 4%;
         margin-bottom: 4%;
-       
+        margin-left: 4%;
     }
   }
 
+@media only screen and (max-width: 500px) {
+    .notes1, .notes4, .notes5, .notes6 {
+        margin-left: 4%;
+    }
+}
 
 .notes4, .notes5, .notes6 {
     margin-top: 4%;

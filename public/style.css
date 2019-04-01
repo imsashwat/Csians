@@ -108,7 +108,7 @@ hr {
 }
 
 
- .page-footer-notes {
+.page-footer-syll, .page-footer-notes {
     position: relative;
     padding: 0%;
     bottom: 0%;

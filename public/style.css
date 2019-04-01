@@ -3,8 +3,6 @@
     margin-top: 4%;
 }
 
-
-
 /* giving colour to icons of footer */
 .fas {
     color: white;
@@ -44,4 +42,34 @@
 
 .inner:hover img {
     transform: scale(1.5);
+}
+
+/* styling the events page */
+
+
+/* position text in the middle */
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 100;
+}
+
+#demo {
+    font-weight: lighter;
+    word-spacing: 20px;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+    border: 1.5px solid #ffffff;
 }

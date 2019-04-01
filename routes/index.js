@@ -21,4 +21,15 @@ route.get('/notes', function (req, res) {
     res.sendFile(path.join(__dirname+'./notes.html'));
 })
 
+//GET events
+route.get('/events', function (req, res) {
+    res.sendFile(path.join(__dirname+'./events.html'));
+})
+
+//GET contribute
+route.get('/events', function (req, res) {
+    res.sendFile(path.join(__dirname+'./contribute.html'));
+})
+
+
 module.exports = route

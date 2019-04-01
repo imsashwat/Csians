@@ -1,5 +1,12 @@
+// remove preloader when page is loaded
+/*
+$(window).on("load", function() {
+$('#preloader').fadeOut('slow', function() {
+    $(this).remove();
+  });
+});
+*/
 //Time table generator
-
 //program to find today's day name
 var today = new Date();
 var dd = today.getDate();

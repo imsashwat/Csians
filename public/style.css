@@ -1,4 +1,19 @@
+/* preloader
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #ffffff url('./eclipse.gif') no-repeat center center;
+  }
+/*
+
+
 /* giving margin top to timetable in index.html */
+
 .con-tt, .con-syll {
     margin-top: 4%;
 }
@@ -57,19 +72,44 @@
     text-align: center;
 }
 
+/* text on events page */
+
 h1 {
     font-size: 40px;
     letter-spacing: 30px;
     font-weight: 100;
 }
+/* id on events.html */
 
 #demo {
     font-weight: lighter;
     word-spacing: 20px;
 }
 
+/* id on events.html */
+
 hr {
     margin: auto;
     width: 80%;
     border: 1.5px solid #ffffff;
+}
+
+/* contribute page  */
+
+.contri, .about {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/* contribute page icons  */
+
+.fa-linkedin, .fa-github, .fa-instagram {
+    font-size: 2.5em;
+}
+
+
+ .page-footer-notes {
+    position: relative;
+    padding: 0%;
+    bottom: 0%;
 }

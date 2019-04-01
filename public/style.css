@@ -19,13 +19,13 @@
     .notes2, .notes3 {
         margin-top: 4%;
         margin-bottom: 4%;
-        margin-left: 4%;
+        margin-left: 3%;
     }
   }
 
 @media only screen and (max-width: 500px) {
     .notes1, .notes4, .notes5, .notes6 {
-        margin-left: 4%;
+        margin-left: 3%;
     }
 }
 

@@ -6,7 +6,7 @@ A student resource portal built with node.js,express.js,javascript,jquery and bo
 
 Mobile screenshot
 
-![Screenshot](https://github.com/imsashwat/Csians/tree/master/public/info.gif "screen shot")
+![Screenshot](img src = https://github.com/imsashwat/Csians/tree/master/public/info.gif "screen shot")
 
 
 ## Description
